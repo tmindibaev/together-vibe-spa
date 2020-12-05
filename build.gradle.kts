@@ -1,7 +1,7 @@
 plugins {
     kotlin("js") version "1.4.10"
 }
-group = "me.user"
+group = "together-vibe"
 version = "1.0-SNAPSHOT"
 
 repositories {
