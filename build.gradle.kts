@@ -21,6 +21,7 @@ dependencies {
     implementation("org.jetbrains:kotlin-react-dom:16.13.1-pre.110-kotlin-1.4.10")
     implementation("org.jetbrains:kotlin-styled:1.0.0-pre.110-kotlin-1.4.10")
 
+    implementation(npm("together-vibe-shared-models", "1.0.4", generateExternals = true))
     implementation(npm("styled-components", "~5.1.1"))
 
 }

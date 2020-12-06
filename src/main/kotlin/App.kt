@@ -83,7 +83,7 @@ class App : RComponent<RProps, AppState>() {
                 attrs {
                     onClickFunction = {
                         state.currentEvent =
-                            fetchRandomEvent(Random.nextInt(1000))
+                            fetchRandomEvent(Random.nextInt(1000)).toString()
                     }
                 }
             }
